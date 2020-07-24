@@ -10,8 +10,8 @@ metadata:
 spec:
   tls:
     - hosts:
-        - feekzk8s.com
         - www.feekzk8s.com
+        - feekzk8s.com
       secretName: feekzk8s-com
   rules:
     - host: feekzk8s.com
